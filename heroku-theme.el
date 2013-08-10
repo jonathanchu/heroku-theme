@@ -4,7 +4,7 @@
 ;;
 ;; Author: Jonathan Chu <jonathan.chu@me.com>
 ;; URL: https://github.com/jonathanchu/heroku-theme
-;; Version: 1.0.0
+;; Version: 1.1.0
 ;;
 ;;; Commentary:
 ;;
@@ -103,6 +103,6 @@
      (add-to-list 'custom-theme-load-path
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
-				   
+
 (provide-theme 'heroku)
 ;;; heroku-theme.el ends here
