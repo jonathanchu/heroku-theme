@@ -96,5 +96,13 @@
  '(org-upcoming-deadline ((t (:inherit font-lock-keyword-face))))
  '(org-warning ((t (:bold t :foreground "#cc9393"d :weight bold))))
 )
+
+;;;###autoload
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
+				   
 (provide-theme 'heroku)
 ;;; heroku-theme.el ends here
