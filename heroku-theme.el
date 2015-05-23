@@ -1,20 +1,17 @@
 ;;; heroku-theme.el --- Heroku color theme
 ;;
-;; Copyright 2013 Jonathan Chu
+;; Copyright 2012-2015 Jonathan Chu
 ;;
-;; Author: Jonathan Chu <jonathan.chu@me.com>
-;; URL: https://github.com/jonathanchu/heroku-theme
-;; Version: 1.1.0
+;; Author: Jonathan Chu <me@jonathanchu.is>
+;; URL: https://github.com/jonathanchu/color-theme-heroku
+;; Version: 2.0.0
 ;;
 ;;; Commentary:
 ;;
 ;; Based on the aesthetics of Heroku articles such as
 ;; http://devcenter.heroku.com/articles/python
 ;;
-;; Installation (Package.el)
-;; 1. M-x package-install color-theme-heroku
-;; 2. (load-theme 'heroku t)
-
+;;; Code:
 
 (deftheme heroku
   "Heroku color theme")
@@ -31,9 +28,6 @@
 
  '(mode-line ((t (:foreground "#030303" :background "#bdbdbd"
                               :box (:line-width 1 :color "#000000" :style released-button)))))
- ;; uncomment and use the following mode-line below for use with emacs-powerline
- ;; (https://github.com/jonathanchu/emacs-powerline.git)
- ;; '(mode-line ((t (:foreground "#030303" :background "#bdbdbd"))))
  '(minibuffer-prompt ((t (:foreground "#729fcf" :bold t))))
 
  ;; magit
