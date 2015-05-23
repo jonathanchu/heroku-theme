@@ -18,7 +18,7 @@ Installation
 
 ::
 
-    (load-theme heroku t)
+    (load-theme 'heroku t)
 
 Screenshots
 -----------
