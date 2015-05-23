@@ -2,8 +2,6 @@
 heroku-theme
 ============
 
-** Please note: The installation instructions are outdated. Need to update for Emacs 24 color theme **
-
 This is an Emacs color theme based on the aesthetics Heroku articles such as `http://devcenter.heroku.com/articles/python <http://devcenter.heroku.com/articles/python>`_.
 
 Installation
