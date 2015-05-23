@@ -1,3 +1,5 @@
+<a href="http://melpa.org/#/heroku-theme"><img alt="MELPA" src="http://melpa.org/packages/heroku-theme-badge.svg"/></a>
+
 ============
 heroku-theme
 ============
