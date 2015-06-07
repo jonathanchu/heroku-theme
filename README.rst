@@ -12,14 +12,18 @@ This is an Emacs color theme based on the aesthetics Heroku articles such as `ht
 Installation
 ------------
 
-1. Install the `color-theme package <http://www.emacswiki.org/cgi-bin/wiki/ColorTheme>`_.
-2. Load `heroku-theme.el`, for example:
+Installing from Packages (MELPA) is the easiest way.
+
+If you choose to install manually, you just need to reference the path
+the repo is on and load the theme.
+
+Load `heroku-theme.el`, for example:
 
 ::
 
-    (load-file "~/.emacs.d/vendor/custom-color-themes/heroku-theme.el")
+    (load-file "~/.emacs.d/path/to/heroku-theme")
 
-3. Call the color theme
+Then, call the color theme:
 
 ::
 
